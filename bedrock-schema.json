@@ -3113,7 +3113,8 @@
                         "description": "Allows the actor to break doors assuming that that flags set up for the component to use in navigation."
                     },
                     "minecraft:annotation.open_door": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to to open doors, assuming that flags have been set up for the component to use in navigation."
                     },
                     "minecraft:behavior.hide": {
                         "type": "object",
@@ -4087,7 +4088,8 @@
                         }
                     },
                     "minecraft:behavior.guardian_attack": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Allows this entity to use a laser beam attack. Can only be used by Guardians and Elder Guardians.",
                     },
                     "minecraft:behavior.harvest_farm_block": {
                         "type": "object",
@@ -4954,64 +4956,84 @@
                         }
                     },
                     "minecraft:behavior.ocelotattack": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Allows an entity to attack by sneaking and pouncing."
                     },
                     "minecraft:behavior.offer_flower": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "compels an entity to offer a flower to another entity."
                     },
                     "minecraft:behavior.open_door": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to interact and open a door."
                     },
                     "minecraft:behavior.owner_hurt_by_target": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Requires a player to be set as the owner via taming or console command in order to work properly."
                     },
                     "minecraft:behavior.owner_hurt_target": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to react when the owner hits a target."
                     },
                     "minecraft:behavior.panic": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to react when it receives damage."
                     },
                     "minecraft:behavior.peek": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Defines the entity's 'peek' behavior, and the events that should be called during it."
                     },
                     "minecraft:behavior.pet_sleep_with_owner": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to sleep on a bed shared with its sleeping owner."
                     },
                     "minecraft:behavior.pickup_items": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to pick up selected items off the ground."
                     },
                     "minecraft:behavior.play": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels the mob to play with other mobs by chasing each other and moving around randomly."
                     },
                     "minecraft:behavior.player_ride_tamed": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Allows an entity to be rideable after being tamed by a player."
                     },
                     "minecraft:behavior.raid_garden": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to eat crops that have been planted in a farm."
                     },
                     "minecraft:behavior.random_breach": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to breach the surface of the water at a random interval."
                     },
                     "minecraft:behavior.random_fly": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to fly to a random spot."
                     },
                     "minecraft:behavior.random_hover": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels the entity to hover around randomly, close to the surface."
                     },
                     "minecraft:behavior.random_look_around": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to choose a random direction to look in for a random duration within a range."
                     },
                     "minecraft:behavior.random_look_around_and_sit": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to sit in place and look around in different directions. The entity must have a sitting animation configured in order to use this goal."
                     },
                     "minecraft:behavior.random_sitting": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to stop and sit for a random duration of time."
                     },
                     "minecraft:behavior.random_stroll": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to choose a random direction to walk towards."
                     },
                     "minecraft:behavior.random_swim": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to swim in a random point in water."
                     },
                     "minecraft:behavior.ranged_attack": {
                         "type": "object",
@@ -5123,52 +5145,76 @@
                         }
                     },
                     "minecraft:behavior.receive_love": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Inspires an entity to mate with another similar entity when approached to breed."
                     },
                     "minecraft:behavior.restrict_open_door": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to stay indoors while the sun is down."
                     },
                     "minecraft:behavior.restrict_sun": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to actively avoid direct sunlight."
+                    },
+                    "minecraft:behavior.rise_to_liquid_level": {
+                        "type": "object",
+                        "description": "Compels an entity to rise to the top of a liquid block if they are located in one or have spawned under a liquid block."
+                    },
+                    "minecraft:behavior.roar": {
+                        "type": "object",
+                        "description": "Compels this entity to roar at another entity based on data in minecraft:anger_level. When the anger threshold specified in minecraft:anger_level has been reached, this entity will roar for the specified amount of time, look at the other entity, apply anger boost towards it, and finally target it."
                     },
                     "minecraft:behavior.roll": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to roll forward."
                     },
                     "minecraft:behavior.run_around_like_crazy": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to run around without a set goal."
                     },
                     "minecraft:behavior.send_event": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to send an event to another entity."
                     },
                     "minecraft:behavior.share_items": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to share items they have in their inventory with other specific entities that have been defined."
                     },
                     "minecraft:behavior.silverfish_merge_with_stone": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to enter a stone block."
                     },
                     "minecraft:behavior.silverfish_wake_up_friends": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to alert other entities of the same family to leave a stone block."
                     },
                     "minecraft:behavior.skeleton_horse_trap": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Allows an entity to function as a skeleton horse trap and be triggered, spawning a lightning bolt, additional skeleton horses, and skeleton horse riders, when a player approaches to within a set radius."
                     },
                     "minecraft:behavior.sleep": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Allows an entity to sleep in a bed."
                     },
                     "minecraft:behavior.slime_attack": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Enables mobs with minecraft:movement.jump to path towards their target like a slime or magma_cube does to attack"
                     },
                     "minecraft:behavior.slime_float": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Allows entities to float in water or lava. Can only be used by slime and magma_cube."
                     },
                     "minecraft:behavior.slime_keep_on_jumping": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels the entity to continuously jump around like a slime."
                     },
                     "minecraft:behavior.slime_random_direction": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels the entity to move in random directions like a slime."
                     },
                     "minecraft:behavior.snacking": {
-                        "type": "object"
+                        "type": "object",
+                        "description": "Compels an entity to stop and interact with select food items that are nearby."
                     },
                     "minecraft:behavior.sneeze": {
                         "type": "object"
