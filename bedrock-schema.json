@@ -1,5 +1,5 @@
 {
-    "$id": "https://g1t123.github.io/bedrock-schema/",
+    "$id": "https://g1t123.github.io/bedrock-schema",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$ref": "#/definitions/Entity",
     "definitions": {
