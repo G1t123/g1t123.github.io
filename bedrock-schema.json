@@ -6637,6 +6637,7 @@
                         "type": "object"
                     },
                     "minecraft:physics": {
+                        "description": "minecraft:physics defines physics properties of an entity, including if it is affected by gravity or if it collides with objects."
                         "type": "object",
                         "properties": {
                             "has_gravity": {
