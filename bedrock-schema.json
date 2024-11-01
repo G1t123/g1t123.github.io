@@ -5166,6 +5166,7 @@
                     },
                     "minecraft:behavior.roll": {
                         "type": "object",
+                        "description": "Compels an entity to roll forward.",
                         "properties": {
                             "priority" : {
                                 "type" : [
