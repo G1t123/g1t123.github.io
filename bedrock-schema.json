@@ -26,8 +26,7 @@
                         "1.18",
                         "1.18.10",
                         "1.19",
-                        "1.19.30",
-                        "1.20"
+                        "1.19.30"
                     ]
                 },
                 "minecraft:entity": {
@@ -5218,56 +5217,37 @@
                         "description": "Compels an entity to stop and interact with select food items that are nearby."
                     },
                     "minecraft:behavior.sneeze": {
-                        "type": "object",
-                        "description": "Compels an entity to sneeze and potentially startle other entities. While sneezing, the entity may drop an item."
-                    },
-                    "minecraft:behavior.sniff": {
-                        "type": "object",
-                        "description": "Compels this entity to detect the nearest player within "sniffing_radius" and update its minecraft:suspect_tracking component state."
-                    },
-                    "minecraft:behavior.sonic_boom": {
-                        "type": "object",
-                        "description": "Compels this entity to perform a 'sonic boom' ranged attack."
+                        "type": "object"
                     },
                     "minecraft:behavior.squid_dive": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.squid_flee": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.squid_idle": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.squid_move_away_from_ground": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.squid_out_of_water": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.stalk_and_pounce_on_target": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.stay_while_sitting": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.stomp_attack": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.stomp_turtle_egg": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.stroll_towards_village": {
-                        "type": "object",
-                        "description": ""
+                        "type": "object"
                     },
                     "minecraft:behavior.summon_entity": {
                         "type": "object",
