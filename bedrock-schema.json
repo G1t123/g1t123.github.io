@@ -5166,7 +5166,24 @@
                     },
                     "minecraft:behavior.roll": {
                         "type": "object",
-                        "description": "Compels an entity to roll forward."
+                        "properties": {
+                            "priority" : {
+                                "type" : [
+                                    "integer",
+                                    "string"
+                                ],
+                                "default" : 0,
+                                "description": "The higher the priority, the sooner this behavior will be executed as a goal."
+                            },
+                            "probability" : {
+                                "type": [
+                                    "number",
+                                    "string"
+                                ],
+                                "default" : 1,
+                                "description": "The probability that the mob will use the goal."
+                            }
+                        }
                     },
                     "minecraft:behavior.run_around_like_crazy": {
                         "type": "object",
